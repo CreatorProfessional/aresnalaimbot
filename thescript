@@ -7,8 +7,8 @@ ESP_ENABLED  = false
 
 _G.FREE_FOR_ALL = true
 
-_G.CHANGE_AIMBOT = 'x'
-_G.CHANGE_ESP = 'j'
+_G.CHANGE_AIMBOT = 'e'
+_G.CHANGE_ESP = 'x'
 _G.CHANGE_AIM = 'h'
 
 _G.AIM_AT = 'Head'
@@ -238,5 +238,5 @@ end
 until ESP_ENABLED == false
 wait()
 _G.FREE_FOR_ALL = false
-_G.CHANGE_AIMBOT = 'x'
-_G.CHANGE_ESP = 'j'
+_G.CHANGE_AIMBOT = 'e'
+_G.CHANGE_ESP = 'x'
