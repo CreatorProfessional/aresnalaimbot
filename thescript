@@ -206,9 +206,9 @@ end)
 MOUSE.KeyDown:connect(function(KEY)
 if KEY == _G.CHANGE_AIM then
 if _G.AIM_AT == 'Head' then
-_G.AIM_AT = 'Torso'
+_G.AIM_AT = 'HumanoidRootPart'
 GUI_AIM_AT.Text = 'AIMING : TORSO'
-elseif _G.AIM_AT == 'Torso' then
+elseif _G.AIM_AT == 'HumanoidRootPart' then
 _G.AIM_AT = 'Head'
 GUI_AIM_AT.Text = 'AIMING : HEAD'
 end
